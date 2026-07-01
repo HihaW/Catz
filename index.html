@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catz - Mengenal Lebih Dekat Sahabat Berbulu Anda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <nav class="navbar">
+                <span class="logo">Catz</span>
+            </nav>
+            <div class="hero-content">
+                <h1>Mengenal Lebih Dekat Sahabat Berbulu Anda</h1>
+                <p>Temukan Karakteristik Ras Kucing Populer di Dunia. Setiap ras kucing memiliki keunikan, sifat, dan kebutuhan yang berbeda. Catz hadir untuk menyajikan informasi dasar yang dapat membantu Anda mengenali karakter beberapa ras kucing yang paling populer.</p>
+                <button id="btn-explore" class="btn-primary">Pelajari Ras Kucing</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro-section">
+        <div class="container text-center">
+            <h2>Mengapa Memahami Ras Kucing Itu Penting?</h2>
+            <p>Memilih atau merawat kucing akan lebih optimal jika kita memahami asal-usul dan sifat alami mereka. Melalui profil singkat di bawah ini, Anda dapat mempelajari karakteristik fisik dan kepribadian dari lima ras kucing yang banyak digemari di berbagai belahan dunia.</p>
+        </div>
+    </section>
+
+    <section id="content-section" class="breeds-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Eksplorasi Ras Kucing Populer</h2>
+                <input type="text" id="search-breed" placeholder="Cari ras kucing...">
+            </div>
+
+            <div class="breeds-grid" id="breeds-container">
+                <div class="breed-card" data-name="persia">
+                    <div class="card-body">
+                        <div class="card-text-content">
+                            <h3>Persia <span class="tag">Anggun & Tenang</span></h3>
+                            <div class="info-group">
+                                <h4>Karakteristik Fisik</h4>
+                                <p>Memiliki bulu yang panjang, lebat, serta wajah datar (pesek) yang khas.</p>
+                            </div>
+                            <div class="info-group">
+                                <h4>Kepribadian</h4>
+                                <p>Dikenal sangat tenang, manja, dan lebih memilih menghabiskan waktu dengan bersantai di lingkungan yang damai.</p>
+                            </div>
+                            
+                            <div class="card-detail-extra">
+                                <h4>Informasi Lanjut</h4>
+                                <p>Persia membutuhkan perawatan bulu rutin setiap hari untuk mencegah kusut. Mereka sangat cocok untuk gaya hidup apartemen karena tingkat aktivitasnya yang rendah.</p>
+                                <button class="btn-secondary close-expand">Tutup Detail</button>
+                            </div>
+                        </div>
+                        <div class="card-image-placeholder">
+                            <img src="assets/img/persia.jpg" alt="Kucing Persia" class="breed-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card" data-name="maine coon">
+                    <div class="card-body">
+                        <div class="card-text-content">
+                            <h3>Maine Coon <span class="tag">Gagah & Aktif</span></h3>
+                            <div class="info-group">
+                                <h4>Karakteristik Fisik</h4>
+                                <p>Salah satu ras kucing domestik terbesar di dunia yang berasal dari Amerika, dilengkapi bulu tebal yang memiliki ketahanan terhadap air.</p>
+                            </div>
+                            <div class="info-group">
+                                <h4>Kepribadian</h4>
+                                <p>Ramah, sangat aktif bersosialisasi, dan memiliki rasa ingin tahu yang tinggi.</p>
+                            </div>
+
+                            <div class="card-detail-extra">
+                                <h4>Informasi Lanjut</h4>
+                                <p>Sering dijuluki "anjing dalam wujud kucing" karena kepintarannya dan kesukaannya mengikuti pemilik di sekitar rumah.</p>
+                                <button class="btn-secondary close-expand">Tutup Detail</button>
+                            </div>
+                        </div>
+                        <div class="card-image-placeholder">                            
+                            <img src="assets/img/maine_coon.jpg" alt="Kucing Maine Coon" class="breed-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card" data-name="ragdoll">
+                    <div class="card-body">
+                        <div class="card-text-content">
+                            <h3>Ragdoll <span class="tag">Lembut & Penyayang</span></h3>
+                            <div class="info-group">
+                                <h4>Karakteristik Fisik</h4>
+                                <p>Memiliki mata berwarna biru jernih yang kontras dengan bulunya yang halus.</p>
+                            </div>
+                            <div class="info-group">
+                                <h4>Kepribadian</h4>
+                                <p>Sangat penyayang dan santai. Kucing ini memiliki keunikan di mana tubuhnya cenderung lemas dan rileks saat digendong, menyerupai boneka kain.</p>
+                            </div>
+
+                            <div class="card-detail-extra">
+                                <h4>Informasi Lanjut</h4>
+                                <p>Ragdoll sangat ramah terhadap anak-anak dan hewan peliharaan lain. Mereka menyukai perhatian tetapi tidak menuntut.</p>
+                                <button class="btn-secondary close-expand">Tutup Detail</button>
+                            </div>
+                        </div>
+                        <div class="card-image-placeholder">
+                            <img src="assets/img/ragdoll.jpg" alt="Kucing Ragdoll" class="breed-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card" data-name="siam siamese">
+                    <div class="card-body">
+                        <div class="card-text-content">
+                            <h3>Siam / Siamese <span class="tag">Cerdas & Komunikatif</span></h3>
+                            <div class="info-group">
+                                <h4>Karakteristik Fisik</h4>
+                                <p>Berasal dari Thailand, mudah dikenali dari pola warna gelap (point) pada bagian wajah, telinga, kaki, dan ekor.</p>
+                            </div>
+                            <div class="info-group">
+                                <h4>Kepribadian</h4>
+                                <p>Sangat vokal (senang mengeong untuk berkomunikasi), cerdas, aktif, dan menyukai interaksi dengan pemiliknya.</p>
+                            </div>
+
+                            <div class="card-detail-extra">
+                                <h4>Informasi Lanjut</h4>
+                                <p>Siamese membutuhkan banyak stimulasi mental dan fisik. Mereka tidak suka ditinggal sendirian dalam waktu yang lama.</p>
+                                <button class="btn-secondary close-expand">Tutup Detail</button>
+                            </div>
+                        </div>
+                        <div class="card-image-placeholder">
+                             <img src="assets/img/siam.webp" alt="Kucing Siam" class="breed-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="breed-card" data-name="british shorthair">
+                    <div class="card-body">
+                        <div class="card-text-content">
+                            <h3>British Shorthair <span class="tag">Mandiri & Setia</span></h3>
+                            <div class="info-group">
+                                <h4>Karakteristik Fisik</h4>
+                                <p>Memiliki struktur tubuh yang kekar, wajah bulat yang menggemaskan, serta bulu pendek yang rapat dan lebat.</p>
+                            </div>
+                            <div class="info-group">
+                                <h4>Kepribadian</h4>
+                                <p>Cenderung santai, mandiri, namun tetap menunjukkan kesetiaan yang tinggi kepada anggota keluarga di rumah.</p>
+                            </div>
+
+                            <div class="card-detail-extra">
+                                <h4>Informasi Lanjut</h4>
+                                <p>Mereka adalah kucing yang tenang, tidak merusak, dan cenderung mengobservasi sekitar. Sangat mandiri untuk ditinggal saat Anda bekerja.</p>
+                                <button class="btn-secondary close-expand">Tutup Detail</button>
+                            </div>
+                        </div>
+                        <div class="card-image-placeholder">
+                             <img src="assets/img/british_short_hair.jpg" alt="Kucing British Short Hair" class="breed-image">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="breed-card" data-name="scottish fold">
+                    <div class="card-body">
+                        <div class="card-text-content">
+                            <h3>Scottish Fold <span class="tag">Manis & Bersahabat</span></h3>
+                            <div class="info-group">
+                                <h4>Karakteristik Fisik</h4>
+                                <p>Sangat mudah dikenali dari daun telinganya yang terlipat ke depan.</p>
+                            </div>
+                            <div class="info-group">
+                                <h4>Kepribadian</h4>
+                                <p>Memiliki sifat yang manis, tenang, ramah, dan sangat mudah bersahabat.</p>
+                            </div>
+
+                            <div class="card-detail-extra">
+                                <h4>Informasi Lanjut</h4>
+                                <p>Mutasi genetik yang melipat telinga mereka memerlukan perhatian kesehatan ekstra, terutama pada tulang dan persendiannya.</p>
+                                <button class="btn-secondary close-expand">Tutup Detail</button>
+                            </div>
+                        </div>
+                        <div class="card-image-placeholder">
+                             <img src="assets/img/scottish_fold.jpeg" alt="Kucing Scottish Fold" class="breed-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container text-center">
+            <hr class="divider">
+            <p class="disclaimer">Catatan: Informasi yang disajikan di platform ini dirangkum dari berbagai sumber umum untuk memberikan gambaran dasar mengenai ras-ras kucing terkait.</p>
+            <p class="copyright">&copy; 2025 Catz. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
